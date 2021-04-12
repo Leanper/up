@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingConstraints"
+    xmlns:leanper="http://schemas.android.com/apk/res-auto">
+
+    <com.leanper.jetpackdemo.weight.WatchFace
+        android:id="@+id/watchface"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        leanper:hourcolor="@color/gray"
+        leanper:mincolor="@color/yellow"
+        leanper:secondcolor="@color/blue"
+        leanper:watchbg="@mipmap/icon_watch">
+
+    </com.leanper.jetpackdemo.weight.WatchFace>
+
+</LinearLayout>

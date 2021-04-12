@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".fragment.ArchFragment">
+
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/iv_carsmall"
+            android:src="@mipmap/carsmall"
+            android:layout_width="wrap_content"
+            android:transitionName="carsmall"
+            android:layout_height="wrap_content"></ImageView>
+
+        <TextView
+            android:layout_marginTop="@dimen/qb_px_50"
+            android:id="@+id/TV_navigation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="{Typebean.name}" />
+
+
+        <TextView
+            android:layout_marginTop="@dimen/qb_px_50"
+            android:id="@+id/TV_dataStore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="DataStore" />
+
+        <TextView
+            android:layout_marginTop="@dimen/qb_px_50"
+            android:id="@+id/TV_viewbinding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="viewbinding" />
+
+
+        <TextView
+            android:layout_marginTop="@dimen/qb_px_50"
+            android:id="@+id/TV_lifeData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="lifeData" />
+
+        <TextView
+            android:layout_marginTop="@dimen/qb_px_50"
+            android:id="@+id/TV_Lifecycles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Lifecycles" />
+
+        <TextView
+            android:layout_marginTop="@dimen/qb_px_50"
+            android:id="@+id/TV_viewmodel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="viewmodel" />
+        <TextView
+            android:layout_marginTop="@dimen/qb_px_50"
+            android:id="@+id/TV_workmanager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="workmanager" />
+        <TextView
+            android:layout_marginTop="@dimen/qb_px_50"
+            android:id="@+id/TV_room"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="room" />
+        <TextView
+            android:layout_marginTop="@dimen/qb_px_50"
+            android:id="@+id/TV_Paging"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Paging" />
+
+
+    </LinearLayout>
+
+    </ScrollView>
+</layout>

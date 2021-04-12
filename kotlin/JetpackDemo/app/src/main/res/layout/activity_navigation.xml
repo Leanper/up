@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingConstraints"
+    tools:context=".Arch.navigation.NavigationActivity">
+
+
+    <include layout="@layout/toolbar_layout" android:id="@+id/ln"></include>
+    <ImageView
+        app:layout_constraintTop_toBottomOf="@id/ln"
+        android:layout_margin="@dimen/qb_px_60"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:id="@+id/iv_carbig"
+        android:src="@mipmap/carbig"
+        android:transitionName="carbig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ImageView>
+    <TextView
+        app:layout_constraintTop_toBottomOf="@id/iv_carbig"
+        android:id="@+id/tv_Navigation_show"
+        android:text="Navigation"
+        android:layout_margin="@dimen/qb_px_60"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></TextView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--payview 支付成功失败自定义属性-->
+    <declare-styleable name="PayView">
+        <attr name="progress_color" format="color"/>
+        <attr name="progress_width" format="dimension"/>
+        <attr name="radius" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="BiliLoading">
+        <attr name="paint_width" format="dimension"></attr>
+        <attr name="paint_color" format="color"/>
+
+    </declare-styleable>
+
+
+    <declare-styleable name="ArcView">
+        <attr name="innerColor" format="color"></attr>
+        <attr name="outerColor" format="color"></attr>
+        <attr name="textColor" format="color"></attr>
+        <attr name="textWidth" format="dimension"></attr>
+        <attr name="textSize" format="dimension"></attr>
+        <attr name="textInfo" format="string"></attr>
+
+    </declare-styleable>
+
+
+    <declare-styleable name="LoginButton">
+
+        <attr name="button_color" format="color" />
+        <attr name="text_color" format="color" />
+        <attr name="circle_loading_color" format="color" />
+        <attr name="failed_button_color" format="color" />
+        <attr name="text_size" format="dimension" />
+        <attr name="circle_loading_width" format="dimension" />
+        <attr name="login_text" format="string" />
+        <attr name="failed_text" format="string" />
+        <attr name="failed_text_color" format="color" />
+        <attr name="button_normal_color" format="color" />
+        <attr name="button_normal_stroke_color" format="color" />
+        <attr name="text_normal_color" format="color" />
+        <attr name="button_normal_stroke_width" format="dimension" />
+
+    </declare-styleable>
+
+
+</resources>

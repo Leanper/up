@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:viewBindingIgnore="true"
+    tools:context=".MainActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="@color/hotpink"
+        app:titleTextColor="#ffffff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="24sp"
+                android:padding="4dp"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:text="Jetpack"/>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:id="@+id/iv_camera"
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:padding="14dp"
+                android:src="@mipmap/ic_launcher"/>
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:id="@+id/nav_host_fragment"
+        app:defaultNavHost="true"
+        android:layout_weight="1"
+        app:navGraph="@navigation/nav_graph">
+
+ </fragment>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/lightskyblue"
+        app:itemIconTint="@color/teal_200"
+        app:itemTextColor="@color/black"
+
+        app:menu="@menu/navigation_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+</LinearLayout>

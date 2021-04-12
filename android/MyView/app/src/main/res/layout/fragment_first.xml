@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/tv_pay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PayView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_path"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="path"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_pay" />
+    <TextView
+        android:id="@+id/tv_bilibili"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="bilibililoading"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_path" />
+
+    <TextView
+        android:id="@+id/tv_arc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="arc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_bilibili" />
+    <TextView
+        android:id="@+id/tv_loginbut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="loginbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_arc" />
+    <TextView
+        android:id="@+id/tv_partcleview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="partcleview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_loginbut" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

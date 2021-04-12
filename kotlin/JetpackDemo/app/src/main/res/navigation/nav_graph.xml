@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/UiFragment">
+
+    <!--首页UI-->
+    <fragment
+        android:id="@+id/UiFragment"
+        android:name="com.leanper.jetpackdemo.fragment.UiFragment"
+        android:label="fragment_ui"
+        tools:layout="@layout/fragment_ui" >
+        <action
+            android:id="@+id/action_uiFragment_to_layoutActivity"
+            app:destination="@id/layoutActivity" />
+        <action
+            android:id="@+id/action_UiFragment_to_viewDemo"
+            app:destination="@id/viewDemo" />
+    </fragment>
+
+    <!--behavior行为-->
+    <fragment
+        android:id="@+id/behaviorFragment"
+        android:name="com.leanper.jetpackdemo.fragment.BehaviorFragment"
+        android:label="fragment_behavior"
+        tools:layout="@layout/fragment_behavior" />
+
+    <!--框架-->
+    <fragment
+        android:id="@+id/archFragment"
+        android:name="com.leanper.jetpackdemo.fragment.ArchFragment"
+        android:label="fragment_arch"
+        tools:layout="@layout/fragment_arch" >
+        <action
+            android:id="@+id/action_archFragment_to_navigationActivity"
+            app:destination="@id/navigationActivity"
+             />
+        <action
+            android:id="@+id/action_archFragment_to_viewBindingFragment"
+            app:destination="@id/viewBindingFragment" />
+        <action
+            android:id="@+id/action_archFragment_to_dataStoreActivity"
+            app:destination="@id/dataStoreActivity" />
+        <action
+            android:id="@+id/action_archFragment_to_dataStoreFragment"
+            app:destination="@id/dataStoreFragment" />
+        <action
+            android:id="@+id/action_archFragment_to_roomFragment"
+            app:destination="@id/roomFragment" />
+        <action
+            android:id="@+id/action_archFragment_to_pagingDemoFragment"
+            app:destination="@id/pagingDemoFragment" />
+    </fragment>
+
+    <!--Foundation-->
+    <fragment
+        android:id="@+id/FoundationFragment"
+        android:name="com.leanper.jetpackdemo.fragment.FoundationFragment"
+        android:label="fragment_arch"
+        tools:layout="@layout/fragment_foundation" >
+    </fragment>
+
+
+    <!--ArchStart-->
+
+
+    <!--ArchEnd-->
+
+
+    <!--UiStart-->
+    <activity
+        android:id="@+id/layoutActivity"
+        android:name="com.leanper.jetpackdemo.ui.ui.layouts.LayoutActivity"
+        android:label="activity_layout"
+        tools:layout="@layout/activity_layout" />
+    <activity
+        android:id="@+id/navigationActivity"
+        android:name="com.leanper.jetpackdemo.Arch.navigation.NavigationActivity"
+        android:label="activity_navigation"
+        tools:layout="@layout/activity_navigation" />
+    <fragment
+        android:id="@+id/viewBindingFragment"
+        android:name="com.leanper.jetpackdemo.Arch.databinding.ViewBindingFragment"
+        android:label="fragment_view_binding"
+        tools:layout="@layout/fragment_view_binding" >
+        <action
+            android:id="@+id/action_viewBindingFragment_to_viewbind2Fragment"
+            app:destination="@id/viewbind2Fragment" />
+    </fragment>
+    <activity
+        android:id="@+id/dataStoreActivity"
+        android:name="com.leanper.jetpackdemo.Arch.datastore.DataStoreActivity"
+        android:label="activity_data_store"
+        tools:layout="@layout/activity_data_store" >
+    </activity>
+    <fragment
+        android:id="@+id/viewbind2Fragment"
+        android:name="com.leanper.jetpackdemo.Arch.databinding.Viewbind2Fragment"
+        android:label="fragment_viewbind2"
+        tools:layout="@layout/fragment_viewbind2" />
+    <fragment
+        android:id="@+id/dataStoreFragment"
+        android:name="com.leanper.jetpackdemo.Arch.datastore.DataStoreFragment"
+        android:label="DataStoreFragment" />
+    <fragment
+        android:id="@+id/roomFragment"
+        android:name="com.leanper.jetpackdemo.Arch.room.RoomFragment"
+        android:label="RoomFragment" />
+    <fragment
+        android:id="@+id/pagingDemoFragment"
+        android:name="com.leanper.jetpackdemo.Arch.paging.PagingDemoFragment"
+        android:label="PagingDemoFragment" />
+    <fragment
+        android:id="@+id/viewFragment1"
+        android:name="com.leanper.jetpackdemo.view.ViewFragment1"
+        android:label="ViewFragment1" />
+    <fragment
+        android:id="@+id/viewDemo"
+        android:name="com.leanper.jetpackdemo.weight.ViewDemo"
+        android:label="ViewDemo" >
+        <action
+            android:id="@+id/action_viewDemo_to_viewFragment1"
+            app:destination="@id/viewFragment1" />
+        <action
+            android:id="@+id/action_viewDemo_to_watchFaceFragment"
+            app:destination="@id/watchFaceFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/watchFaceFragment"
+        android:name="com.leanper.jetpackdemo.view.WatchFaceFragment"
+        android:label="WatchFaceFragment" />
+    <!--UiEnd-->
+</navigation>

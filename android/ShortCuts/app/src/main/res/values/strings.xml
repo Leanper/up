@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ShortCuts</string>
+    <string name="shorts">My shorts</string>
+    <string name="longs">My long</string>
+    <string name="messages">My message</string>
+    <string name="main">My main</string>
+</resources>

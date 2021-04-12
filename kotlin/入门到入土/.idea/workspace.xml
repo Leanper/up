@@ -1,0 +1,832 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5bfe86d0-2e4b-4845-bf9e-1ddc19db8be4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../myartfactid/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myartfactid/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myartfactid/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myartfactid/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myartfactid/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myartfactid/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myartfactid/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Leanper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day1_10_21/修饰符.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day2_10_22/FunctionTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day2_10_22/NullCheckTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day2_10_22/keywords.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day3_11_3_集合数组/ArraysTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day3_11_3_集合数组/ListTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day3_11_3_集合数组/MapTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day3_11_3_集合数组/SetTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day4_11_6_oop/DataClass.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day4_11_6_oop/interfaces.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day4_11_6_oop/抽象类.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day4_11_6_oop/构造函数.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day4_11_6_oop/继承.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day5_11_9/扩展函数.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day6_11_17各种类/密封类.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day6_11_17各种类/数据类.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day6_11_17各种类/枚举.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day6_11_17各种类/注解.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day7_12_1_javaorkotlin/JavaMainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day7_12_1_javaorkotlin/KotlinMainTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day7_12_1_javaorkotlin/Opration.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day7_12_1_javaorkotlin/PersonBean.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day7_12_1_javaorkotlin/PersonBeanJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day8_12_1_协程/Test1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day9_12_4面向函数编程fop/中缀函数.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin入门到入土/META-INF/kotlin入门到入土.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin入门到入土/META-INF/kotlin入门到入土.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin入门到入土/day1_10_21/Hello_wordKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin入门到入土/day1_10_21/Hello_wordKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin入门到入土/day1_10_21/VarAndValKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin入门到入土/day1_10_21/VarAndValKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day1_10_21/hello word.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day1_10_21/hello word.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day1_10_21/typeinter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day1_10_21/typeinter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/入学入土笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/入学入土笔记.md" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/day2_10_22/NullCheckTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1375">
+              <caret line="55" column="32" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/day7_12_1_javaorkotlin/PersonBean.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/day7_12_1_javaorkotlin/PersonBeanJava.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding>
+                <element signature="e#185#186#0" expanded="true" />
+                <element signature="e#212#213#0" expanded="true" />
+                <element signature="e#239#240#0" expanded="true" />
+                <element signature="e#265#266#0" expanded="true" />
+                <element signature="e#295#296#0" expanded="true" />
+                <element signature="e#321#322#0" expanded="true" />
+                <element signature="e#350#351#0" expanded="true" />
+                <element signature="e#378#379#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/day7_12_1_javaorkotlin/KotlinMainTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding>
+                <element signature="n#!!block;n#getJavaBean#0" />
+                <element signature="n#!!block;n#getKotlinString#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/day2_10_22/FunctionTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/day8_12_1_协程/Test1.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="8" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/day9_12_4面向函数编程fop/中缀函数.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/day6_11_17各种类/密封类.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/day5_11_9/扩展函数.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/day6_11_17各种类/数据类.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>a</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/day1_10_21/varAndVal.kt" />
+        <option value="$PROJECT_DIR$/src/day2_10_22/FunctionTest.kt" />
+        <option value="$PROJECT_DIR$/src/day2_10_22/test.java" />
+        <option value="$PROJECT_DIR$/src/day3_11_3/ArraysTest.kt" />
+        <option value="$PROJECT_DIR$/src/day1_10_21/hello word.kt" />
+        <option value="$PROJECT_DIR$/src/day3_11_3/SetTest.kt" />
+        <option value="$PROJECT_DIR$/src/day3_11_3/ListTest.kt" />
+        <option value="$PROJECT_DIR$/src/day3_11_3/MapTest.kt" />
+        <option value="$PROJECT_DIR$/src/day1_10_21/typeinter.kt" />
+        <option value="$PROJECT_DIR$/src/day1_10_21/修饰符.kt" />
+        <option value="$PROJECT_DIR$/src/day4_11_6_oop/构造函数.kt" />
+        <option value="$PROJECT_DIR$/src/day4_11_6_oop/继承.kt" />
+        <option value="$PROJECT_DIR$/src/day4_11_6_oop/interfaces.kt" />
+        <option value="$PROJECT_DIR$/src/day4_11_6_oop/PersonImpl.kt" />
+        <option value="$PROJECT_DIR$/src/day4_11_6_oop/抽象类.kt" />
+        <option value="$PROJECT_DIR$/src/day6_11_17各种类/枚举.kt" />
+        <option value="$PROJECT_DIR$/src/day6_11_17各种类/注解.kt" />
+        <option value="$PROJECT_DIR$/src/day3_11_3_集合数组/ListTest.kt" />
+        <option value="$PROJECT_DIR$/src/day2_10_22/NullCheckTest.kt" />
+        <option value="$PROJECT_DIR$/src/day4_11_6_oop/DataClass.kt" />
+        <option value="$PROJECT_DIR$/src/day1_10_21/a.java" />
+        <option value="$PROJECT_DIR$/src/day7_12_1_javaorkotlin/Opration.kt" />
+        <option value="$PROJECT_DIR$/src/day7_12_1_javaorkotlin/PersonBeanJava.java" />
+        <option value="$PROJECT_DIR$/src/day7_12_1_javaorkotlin/JavaMainTest.java" />
+        <option value="$PROJECT_DIR$/src/day7_12_1_javaorkotlin/KotlinMainTest.kt" />
+        <option value="$PROJECT_DIR$/src/day7_12_1_javaorkotlin/PersonBean.kt" />
+        <option value="$PROJECT_DIR$/src/day2_10_22/keywords.kt" />
+        <option value="$PROJECT_DIR$/src/day8_12_1_协程/Test1.kt" />
+        <option value="$PROJECT_DIR$/src/day9_12_4面向函数编程fop/中缀函数.kt" />
+        <option value="$PROJECT_DIR$/src/day6_11_17各种类/数据类.kt" />
+        <option value="$PROJECT_DIR$/src/day6_11_17各种类/密封类.kt" />
+        <option value="$PROJECT_DIR$/src/day5_11_9/扩展函数.kt" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="980" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="kotlin入门到入土" type="58d84e3e:PackageViewProjectNode" />
+              <item name="kotlin入门到入土" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="kotlin入门到入土" type="b2602c69:ProjectViewProjectNode" />
+              <item name="入门到入土" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin入门到入土" type="b2602c69:ProjectViewProjectNode" />
+              <item name="入门到入土" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin入门到入土" type="b2602c69:ProjectViewProjectNode" />
+              <item name="入门到入土" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="day1_10_21" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin入门到入土" type="b2602c69:ProjectViewProjectNode" />
+              <item name="入门到入土" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="day2_10_22" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin入门到入土" type="b2602c69:ProjectViewProjectNode" />
+              <item name="入门到入土" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="day4_11_6_oop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin入门到入土" type="b2602c69:ProjectViewProjectNode" />
+              <item name="入门到入土" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="day5_11_9" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin入门到入土" type="b2602c69:ProjectViewProjectNode" />
+              <item name="入门到入土" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="day6_11_17各种类" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin入门到入土" type="b2602c69:ProjectViewProjectNode" />
+              <item name="入门到入土" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="day7_12_1_javaorkotlin" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607327836210" />
+    <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/plugins/Kotlin/lib/kotlinx-serialization-compiler-plugin.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="day4_11_6_oop" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Kotlin.day5_11_9.扩展函数Kt">
+    <configuration name="day2_10_22.KeywordsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlin入门到入土" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="day2_10_22.KeywordsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day5_11_9.扩展函数Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlin入门到入土" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="day5_11_9.扩展函数Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day6_11_17各种类.数据类Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlin入门到入土" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="day6_11_17各种类.数据类Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day8_12_1_协程.Test1Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlin入门到入土" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="day8_12_1_协程.Test1Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day9_12_4面向函数编程fop.中缀函数Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlin入门到入土" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="day9_12_4面向函数编程fop.中缀函数Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.day5_11_9.扩展函数Kt" />
+        <item itemvalue="Kotlin.day6_11_17各种类.数据类Kt" />
+        <item itemvalue="Kotlin.day9_12_4面向函数编程fop.中缀函数Kt" />
+        <item itemvalue="Kotlin.day8_12_1_协程.Test1Kt" />
+        <item itemvalue="Kotlin.day2_10_22.KeywordsKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",KOTLIN_SHOW_NON_PUBLIC,SHOW_INHERITED" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5bfe86d0-2e4b-4845-bf9e-1ddc19db8be4" name="Default Changelist" comment="" />
+      <created>1603261372368</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603261372368</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8166259" visible="true" weight="0.25693527" />
+      <window_info id="Structure" order="1" sideWeight="0.18337408" side_tool="true" weight="0.29062086" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.40934843" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.305949" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
+      <window_info anchor="bottom" id="SmartIM" order="11" weight="0.3286119" />
+      <window_info anchor="bottom" id="Ant Build" order="12" weight="0.4206799" />
+      <window_info anchor="bottom" id="Maven" order="13" weight="0.36402267" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/day3_11_3_集合数组/ListTest.kt</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/day4_11_6_oop/抽象类.kt</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/day6_11_17各种类/数据类.kt</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-field">
+          <url>file://$PROJECT_DIR$/src/day4_11_6_oop/interfaces.kt</url>
+          <line>7</line>
+          <properties myFieldName="age" myClassName="day4_11_6_oop.getData" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/day2_10_22/test.java" />
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/Primitives.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9650">
+          <caret line="389" column="13" selection-start-line="389" selection-start-column="13" selection-end-line="389" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day3_11_3_集合数组/SetTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day3_11_3_集合数组/MapTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day1_10_21/hello word.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day1_10_21/varAndVal.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day1_10_21/修饰符.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day4_11_6_oop/PersonImpl.kt" />
+    <entry file="file://$PROJECT_DIR$/src/day4_11_6_oop/interfaces.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day4_11_6_oop/构造函数.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day4_11_6_oop/抽象类.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="52" column="27" lean-forward="true" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day6_11_17各种类/枚举.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/Any.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="838">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day6_11_17各种类/注解.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="13" selection-start-column="2" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day4_11_6_oop/继承.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day3_11_3_集合数组/ListTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1450">
+          <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day1_10_21/a.java" />
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day4_11_6_oop/DataClass.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day7_12_1_javaorkotlin/JavaMainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1025">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="method#getKotlinDataClass#0;class#JavaMainTest#0" />
+            <element signature="method#getJavaString#0;class#JavaMainTest#0" />
+            <element signature="method#getKotlinBean#0;class#JavaMainTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day7_12_1_javaorkotlin/Opration.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day2_10_22/keywords.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-397">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+          <folding>
+            <element signature="n#!!block;n#applytest#0" />
+            <element signature="e#198#213#0" />
+            <element signature="n#!!block;n#runtest#0" />
+            <element signature="e#198#217#0" />
+            <element signature="n#!!block;n#lettest#0" />
+            <element signature="n#!!doc;n#withtest#0" />
+            <element signature="n#!!block;n#withtest#0" />
+            <element signature="n#!!doc;n#intest#0" />
+            <element signature="n#!!block;n#intest#0" />
+            <element signature="n#!!block;n#whentest#0" />
+            <element signature="n#!!block;n#istest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day1_10_21/typeinter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-450">
+          <caret column="2" selection-start-column="1" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day3_11_3_集合数组/ArraysTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/入学入土笔记.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="108" column="7" lean-forward="true" selection-start-line="108" selection-start-column="7" selection-end-line="108" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day2_10_22/NullCheckTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1375">
+          <caret line="55" column="32" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day7_12_1_javaorkotlin/PersonBean.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day7_12_1_javaorkotlin/PersonBeanJava.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day7_12_1_javaorkotlin/KotlinMainTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!block;n#getJavaBean#0" />
+            <element signature="n#!!block;n#getKotlinString#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day2_10_22/FunctionTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day8_12_1_协程/Test1.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day9_12_4面向函数编程fop/中缀函数.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day6_11_17各种类/密封类.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day6_11_17各种类/数据类.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day5_11_9/扩展函数.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>kotlin入门到入土</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>KotlinJavaRuntime</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
+  </component>
+</project>

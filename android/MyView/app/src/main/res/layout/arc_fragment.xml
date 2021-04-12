@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:leanper="http://schemas.android.com/apk/res-auto">
+
+    <com.leanper.myview.view.ArcView
+       leanper:innerColor="@color/teal_200"
+        leanper:outerColor="@color/teal_700"
+        leanper:textColor="@color/design_default_color_error"
+        leanper:textWidth="5dp"
+        leanper:textSize="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"></com.leanper.myview.view.ArcView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

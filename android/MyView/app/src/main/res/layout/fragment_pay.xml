@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:leanper="http://schemas.android.com/apk/res-auto"
+    tools:ignore="MissingConstraints"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.leanper.myview.view.PayView
+        android:id="@+id/payView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        leanper:progress_color="@color/teal_200"
+        app:layout_constraintTop_toTopOf="parent"
+        leanper:radius="90dp"
+        leanper:progress_width="10dp"></com.leanper.myview.view.PayView>
+
+    <Button
+        android:id="@+id/btSuccess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="成功"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btFail"></Button>
+
+    <Button
+        android:id="@+id/btFail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="失败"
+        app:layout_constraintBottom_toBottomOf="parent"></Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

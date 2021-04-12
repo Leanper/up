@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/paintFragment">
+
+
+    <fragment
+        android:id="@+id/paintFragment"
+        android:name="com.leanper.myview.fragment.PaintFragment"
+        android:label="PaintFragment" >
+        <action
+            android:id="@+id/action_paintFragment_to_payFragment"
+            app:destination="@id/payFragment" />
+        <action
+            android:id="@+id/action_paintFragment_to_bilibiliLoadingFragment"
+            app:destination="@id/bilibiliLoadingFragment" />
+        <action
+            android:id="@+id/action_paintFragment_to_arcFragment"
+            app:destination="@id/arcFragment" />
+        <action
+            android:id="@+id/action_paintFragment_to_loginButtonFragment"
+            app:destination="@id/loginButtonFragment" />
+        <action
+            android:id="@+id/action_paintFragment_to_partcleFragment"
+            app:destination="@id/partcleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pathFragment"
+        android:name="com.leanper.myview.fragment.PathFragment"
+        android:label="PathFragment" />
+    <fragment
+        android:id="@+id/payFragment"
+        android:name="com.leanper.myview.fragment.PayFragment"
+        android:label="PayFragment" />
+    <fragment
+        android:id="@+id/bilibiliLoadingFragment"
+        android:name="com.leanper.myview.fragment.BilibiliLoadingFragment"
+        android:label="BilibiliLoadingFragment" />
+    <fragment
+        android:id="@+id/animationDemo"
+        android:name="com.leanper.myview.fragment.animations.AnimationDemo"
+        android:label="AnimationDemo" >
+        <action
+            android:id="@+id/action_animationDemo_to_valueAnimatorFragment"
+            app:destination="@id/valueAnimatorFragment" />
+        <action
+            android:id="@+id/action_animationDemo_to_objectAnimatorFragment"
+            app:destination="@id/objectAnimatorFragment" />
+        <action
+            android:id="@+id/action_animationDemo_to_setAnimatorFragment"
+            app:destination="@id/setAnimatorFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/objectAnimatorFragment"
+        android:name="com.leanper.myview.fragment.animations.ObjectAnimatorFragment"
+        android:label="ObjectAnimatorFragment" />
+    <fragment
+        android:id="@+id/valueAnimatorFragment"
+        android:name="com.leanper.myview.fragment.animations.ValueAnimatorFragment"
+        android:label="ValueAnimatorFragment" />
+    <fragment
+        android:id="@+id/setAnimatorFragment"
+        android:name="com.leanper.myview.fragment.animations.SetAnimatorFragment"
+        android:label="SetAnimatorFragment" />
+    <fragment
+        android:id="@+id/arcFragment"
+        android:name="com.leanper.myview.fragment.ArcFragment"
+        android:label="ArcFragment" />
+    <fragment
+        android:id="@+id/loginButtonFragment"
+        android:name="com.leanper.myview.fragment.LoginButtonFragment"
+        android:label="LoginButtonFragment" />
+    <fragment
+        android:id="@+id/partcleFragment"
+        android:name="com.leanper.myview.fragment.PartcleFragment"
+        android:label="PartcleFragment" />
+</navigation>

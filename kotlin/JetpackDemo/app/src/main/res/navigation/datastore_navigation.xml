@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/datastore_navigation">
+    <activity
+        android:id="@+id/dataStoreActivity"
+        android:name="com.leanper.jetpackdemo.Arch.datastore.DataStoreActivity"
+        android:label="activity_data_store"
+         >
+<!--        <action-->
+<!--            android:id="@+id/action_dataStoreActivity_to_protoDataStoreFragment"-->
+<!--            app:destination="@id/protoDataStoreFragment" />-->
+<!--        <action-->
+<!--            android:id="@+id/action_dataStoreActivity_to_prefrenceDataStoreFragment"-->
+<!--            app:destination="@id/prefrenceDataStoreFragment" />-->
+    </activity>
+</navigation>
+

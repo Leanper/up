@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="02e65dd0-70e4-4578-b270-f861bc240029" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../android/ShortCuts/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../android/ShortCuts/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../android/ShortCuts/app/src/main/java/com/gotop/wms/SettingActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../android/ShortCuts/app/src/main/res/layout/activity_setting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../android/ShortCuts/app/src/main/res/layout/item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../android/ShortCuts/app/src/main/res/xml/shortcuts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../android/jni/jnifirst/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/Dart/class_and_function.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/Dart/dynamic_and_object.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/Dart/泛型_异步_库.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/douya/mydouya/lib/Sflash.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/douya/mydouya/lib/utils/screenutils.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/assets/fonts/Flamante-Roma-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/assets/fonts/Flamante-Roma-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/assets/fonts/Lato-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/assets/images/5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/assets/images/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/assets/images/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/assets/images/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/assets/images/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/assets/images/normal_user_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/ElementPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/components.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/componets/AlertDialog.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/componets/AnimatedListPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/componets/CardPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/componets/ChipPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/componets/CircularProgressindicatorPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/componets/CityPickerPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/componets/ExpansionPanelList.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/componets/LinearProgressindicatorPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/componets/ListBodyPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/componets/ListViewPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/componets/ScaffoldPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/componets/SimpleDialog.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/componets/TabPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/componets/TimePickerPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/componets/bar/AppBarPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/componets/bar/BUttonBarPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/componets/bar/BarPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/componets/bar/BottomAppBarPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/componets/bar/FlexbleSpaceBarPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/componets/bar/ScrollbarPainterPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/componets/bar/SliverAppBarPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/componets/bar/SnackBarActionPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/componets/bar/SnackBarPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/componets/bar/TabBarPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/componets/grid/GridPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/componets/grid/GridPaper.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/componets/grid/GridTitlePage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/componets/grid/GridView.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/componets/grid/SliverGridPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/componets/menu/CheckedPopupMenuPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/componets/menu/DropdownMenuItem.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/componets/menu/MenuPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/componets/menu/PopupMenuButtonPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/componets/menu/PopupMenuDividerPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/componets/menu/PopupMenuEntryPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/componets/menu/PopupMenuItem.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/componets/scroll/BoxScrollView.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/componets/scroll/CustomScrollView.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/componets/scroll/NestedScrollView.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/componets/scroll/ScrollBarPainter.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/componets/scroll/ScrollMetrics.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/componets/scroll/ScrollPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/componets/scroll/ScrollPhysics.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/componets/scroll/ScrollViewPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/componets/scroll/Scrollable.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/design.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/design/DesignPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/element/AlignPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/element/BoxPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/element/ButtonPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/element/CanvasPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/element/CheckBoxPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/element/ExpandedPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/element/IconPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/element/ImagePage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/element/InputPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/element/LayoutPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/element/RadioPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/element/SliderPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/element/SpaclingPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/element/StackPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/element/SwitchPage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/element/TablePage.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/message.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/perple.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/flutter/myFlutterGo/myflutterweight/lib/utils/colorUtils.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/排序/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/排序/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/排序/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/排序/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/排序/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/排序/src/paixu/maopao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/排序/src/paixu/战队数组.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../flutter/排序/排序.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/servlet_api.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../kotlin/kotlin第一篇入门/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../kotlin/kotlin第一篇入门/src/datatype/BooleanType.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../kotlin/kotlin第一篇入门/src/datatype/NumberType.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter/Dart/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../flutter/Dart/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter/Dart/DataType.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../flutter/Dart/DataType.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter/Dart/基本语法.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../flutter/Dart/基本语法.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter/flutter/flutter_app_firsts/lib/Element/form/Image.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../flutter/flutter/flutter_app_firsts/lib/Element/form/Image.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter/flutter/flutter_app_firsts/lib/Element/form/TextField.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../flutter/flutter/flutter_app_firsts/lib/Element/form/TextField.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter/flutter/flutter_app_firsts/lib/Element/form/text.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../flutter/flutter/flutter_app_firsts/lib/Element/form/text.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter/flutter/flutter_app_firsts/lib/layout/index.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../flutter/flutter/flutter_app_firsts/lib/layout/index.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter/flutter/flutter_app_firsts/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../flutter/flutter/flutter_app_firsts/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter/flutter/flutter_app_firsts/lib/other/Getsturedeteor.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../flutter/flutter/flutter_app_firsts/lib/other/手势识别/Getsturedeteor.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter/flutter/flutter_app_firsts/lib/other/SharedPrefrencePage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../flutter/flutter/flutter_app_firsts/lib/other/SharedPrefrencePage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter/flutter/flutter_app_firsts/lib/other/animation/TweenPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../flutter/flutter/flutter_app_firsts/lib/other/animation/TweenPage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter/flutter/flutter_app_firsts/lib/other/animation/index.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../flutter/flutter/flutter_app_firsts/lib/other/animation/index.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter/flutter/flutter_app_firsts/lib/pages/Like.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../flutter/flutter/flutter_app_firsts/lib/pages/Like.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter/flutter/flutter_app_firsts/lib/pages/My.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../flutter/flutter/flutter_app_firsts/lib/pages/My.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter/flutter/flutter_app_firsts/lib/pages/Tabs.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../flutter/flutter/flutter_app_firsts/lib/pages/Tabs.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter/flutter/flutter_app_firsts/lib/pages/Weights.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../flutter/flutter/flutter_app_firsts/lib/pages/Weights.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter/flutter/flutter_app_firsts/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../flutter/flutter/flutter_app_firsts/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter/flutter/flutter_app_firsts/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../flutter/flutter/flutter_app_firsts/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter/flutter/基础.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../flutter/flutter/基础.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter/不知道叫啥名字好.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../flutter/不知道叫啥名字好.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kotlin/基础语法/base1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kotlin/基础语法/base1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../kotlin/基础语法/base1/src/类成员/test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../kotlin/基础语法/base1/src/类成员/test.kt" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/IWebService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="1" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/WebServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/WebServiceCalledByServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/serverdemo.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="39" lean-forward="true" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/IWebService.java" />
+        <option value="$PROJECT_DIR$/src/WebServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/WebServiceCalledByServlet.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="980" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="serverdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serverdemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serverdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serverdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serverdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serverdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serverdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serverdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="serverdemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serverdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serverdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="serverdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serverdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serverdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576474982422" />
+    <property name="last_opened_file_path" value="F:/software/tomcat/apache-tomcat-8.5.50/lib/servlet-api.jar!/" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="serverdemo" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="02e65dd0-70e4-4578-b270-f861bc240029" name="Default Changelist" comment="" />
+      <created>1576470568619</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576470568619</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" visible="true" weight="0.29959786" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24262735" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#64#65#0" expanded="true" />
+            <element signature="e#114#115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IWebService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WebServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serverdemo.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="39" lean-forward="true" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WebServiceCalledByServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor>
+            <show-content>
+              <type id="artifact" />
+            </show-content>
+          </artifact-editor>
+          <last-edited>war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>serverdemo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>servlet-api</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

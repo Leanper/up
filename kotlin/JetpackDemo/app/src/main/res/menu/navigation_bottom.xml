@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/UiFragment"
+        android:enabled="true"
+        android:icon="@drawable/ui_selected"
+        android:title="UI"
+
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/behaviorFragment"
+        android:enabled="true"
+        android:icon="@drawable/behavior_selected"
+        android:title="Behavior"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/FoundationFragment"
+        android:enabled="true"
+        android:icon="@drawable/foundation_selected"
+        android:title="Foundation"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/archFragment"
+        android:enabled="true"
+        android:icon="@drawable/arch_selected"
+        android:title="Arch"
+        app:showAsAction="ifRoom" />
+
+</menu>

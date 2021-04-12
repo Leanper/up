@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="InputValue">
+        <attr name="defaultValue" format="integer"></attr>
+        <attr name="max" format="integer"></attr>
+        <attr name="min" format="integer"></attr>
+        <attr name="textColor" format="color"></attr>
+        <attr name="btColor" format="color"></attr>
+        <attr name="step" format="integer"></attr>
+        <attr name="disable" format="boolean"></attr>
+
+    </declare-styleable>
+
+    <declare-styleable name="WatchFace">
+        <attr name="watchbg" format="reference"></attr>
+        <attr name="hourcolor" format="color"></attr>
+        <attr name="mincolor" format="color"></attr>
+        <attr name="secondcolor" format="color"></attr>
+        <attr name="scalecolor" format="color"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="HouseSmile">
+        <attr name="outerColor" format="color"></attr>
+        <attr name="eyeColor" format="color"></attr>
+        <attr name="mouthColor" format="color"></attr>
+        <attr name="strokeValue" format="integer"></attr>
+    </declare-styleable>
+
+
+</resources>
