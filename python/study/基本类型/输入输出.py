@@ -12,3 +12,5 @@ print("输入数据")
 x=input()
 
 print(x)
+
+print("内容为%s" %(x) )
