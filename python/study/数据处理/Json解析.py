@@ -17,13 +17,15 @@ import json
 data = {
     'no': 1,
     'name': 'Runoob',
-    'url': 'http://www.runoob.com'
+    'url': 'http://www.runoob.com',
+    'list': "{[\"id\":1 , \"name\":\"张三\"],[\"id\":2 , \"name\":\"李四\"]}"
 }
 
 # 字典转化为json
 json_str = json.dumps(data)
 print("Python 原始数据：", repr(data))
 print("JSON 对象：", json_str)
+json_str.__getattribute__(list)
 
 str=json.loads(json_str)
 print("JSON 转化为String", str)

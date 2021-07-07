@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+<body>
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+        <!-- 开发环境版本 -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </head>
 
-<!--{% if message %}-->
-  <p style="color:red">{{ message }}</p>
-  <!--{% endif %}-->
-  <form action="/signin" method="post">
-    <legend>Please sign in:</legend>
-    <p><input name="username" placeholder="Username" value="{{ username }}"></p>
-    <p><input name="password" placeholder="Password" type="password"></p>
-    <p><button type="submit">Sign In</button></p>
-  </form>
+<div id="app">
+  <p>{{ message }}</p>
+</div>
+
+<script>
+new Vue({
+  el: '#app',
+  data: {
+    message: 'Hello Vue.js!'
+  }
+})
+</script>
+
 
 </body>
 </html>

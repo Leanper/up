@@ -5,7 +5,7 @@
 
 # @File    : for.py
 # @Software: PyCharm
-#@Desc: for循环
+# @Desc: for循环
 
 '''
 格式  for x in list:
@@ -19,9 +19,9 @@ continue 语句被用来告诉 Python 跳过当前循环块中的剩余语句，
 mList = [1, 3, 5, 6, 7, 8, 9]
 
 for x in mList:
-    if(x==4):
+    if x == 4:
         print("四")
-    elif( x == 7):
+    elif x == 7:
         print("7")
     else:
         print(x)
@@ -30,11 +30,8 @@ for x in mList:
 
 mList2 = range(10)
 
-sum=0
+sum = 0
 for x in mList2:
-    sum+=x
+    sum += x
 
 print(sum)
-
-
-

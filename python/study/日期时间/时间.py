@@ -5,12 +5,9 @@
 
 # @File    : 时间.py
 # @Software: PyCharm
-#@Desc:
-'''
+# @Desc:
 
-
-'''
-
+import calendar
 import time
 # 获取当前时间
 print(time.time())
@@ -55,6 +52,7 @@ python中时间日期格式化符号：
 
 
 # 日历是导入日历库
-import calendar
-print ("以下输出2021年4月份的日历:")
-print(calendar.month(2021,4))
+
+
+print("以下输出2021年4月份的日历:")
+print(calendar.month(2021, 4))
