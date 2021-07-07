@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  
+  <style>
+ .active{
+   color:red;
+ }
+
+
+  </style>
+</head>
+<body>
+
+<script src="../../js/vue.js"></script>
+
+<div id="app">
+  <ui>
+    <li v-for="(item,index) in moves"
+     :class="{active:currentindex===index}"
+     @click="getclick(index)">{{item}} </li>
+  </ui>
+
+  </div>
+<script>
+    // const 定义常量 let定义变量
+  const apps=new Vue({
+      el:'#app', //挂载要管理的元素
+      data:{ //数据
+
+        moves:['a','b','c','d'],
+        currentindex:0
+
+
+
+
+      },
+      methods:{
+
+            getclick(index){
+                this.currentindex=index
+            }
+
+
+      }
+
+
+  })
+    
+
+</script>
+</body>
+</html>

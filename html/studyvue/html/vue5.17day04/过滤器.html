@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script src="../../js/vue.js"></script>
+
+<div id="app">
+{{num}}
+  {{ta()}}
+
+  </div>
+
+<script>
+
+
+    // const 定义常量 let定义变量
+  const apps=new Vue({
+      el:'#app', //挂载要管理的元素
+      data:{ //数据
+          num:[2,4,6,8,12,16,86,34],
+
+
+
+      },
+      methods:{
+          ta:function (){
+
+            //   let newnum=this.num.filter(function (n) {
+            //
+            //       return n<30
+            //   })
+            //   console.log(newnum)
+            //
+            //   // return newnum
+            //
+            // let newnum2= newnum.map(function (n){
+            //       return n*3
+            //   })
+            //   console.log(newnum2)
+            //
+            //   let newnum3=newnum2.reduce(function (prevalue,n){
+            //       return prevalue+n
+            //   })
+            //   console.log(newnum3)
+
+              let newnum=this.num.filter(function (n) {
+                  return n<30
+              }).map(function (n) {
+                  return n*3
+              }).reduce(function (pre,n){
+                  return pre+n
+              })
+
+              console.log(newnum)
+
+                  let news=this.num.filter(n=> n<30).map(n=> n*3).reduce((pre,n)=>pre+n)
+              console.log(news)
+              
+              let newsnum4=this.num.sort(function (x,y) {
+                  if (x>y){
+                      return -1
+                  }
+                  if (x<y){
+                      return 1
+                  }
+                  return 0
+              })
+              console.log(newsnum4)
+          },
+
+      }
+
+
+  })
+
+</script>
+
+</body>
+</html>

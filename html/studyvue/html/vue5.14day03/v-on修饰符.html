@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+
+<script src="../../js/vue.js"></script>
+
+<div id="app" @click="divclick">
+  div
+  <button v-on:click.stop="btnclick">阿倪牛</button>
+  <input type="text" @keyup.enter="enterlistener" >
+
+  <form action="baidu">
+    <input type="submit"value="提交" @click.prevent="mysubmit">
+
+  </form>
+  <button v-on:click.once="once"></button>
+  <ui>
+    <li v-for="(k,v) in obj">{{k}} {{v}}</li>
+  </ui>
+
+
+  </div>
+<script>
+    // const 定义常量 let定义变量
+  const apps=new Vue({
+      el:'#app', //挂载要管理的元素
+      data:{ //数据
+
+            obj:{
+              name:'zs',
+                age:18
+          }
+
+
+
+      },methods:{
+         divclick(){
+             console.log("divlick")
+         },
+          btnclick(){
+              console.log("btnlick")
+          },
+          enterlistener(){
+              console.log("enterlistener")
+          },
+          mysubmit(){
+              console.log("mysubmit")
+          },
+          once(){
+              console.log("once")
+          },
+
+
+      }
+
+
+  })
+
+</script>
+</body>
+</html>

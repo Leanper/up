@@ -1,0 +1,1 @@
+export const dogs=['哈士奇','藏獒webpack','柴犬']

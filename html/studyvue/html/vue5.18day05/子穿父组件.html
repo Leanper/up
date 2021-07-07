@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+
+<template id="cpn">
+  <div>
+
+      <button v-for="book in books" @click="btnclick(book)">{{book.name}}</button>
+
+  </div>
+</template>
+
+<div id="app">
+  <cpn v-on:itemclick="cpnclick"></cpn>
+</div>
+<script src="../../js/vue.js"></script>
+
+<script>
+    //子组件
+    const cpn = {
+        template : '#cpn',
+        data(){
+
+            return {
+                books:[
+                    {id:'1',name:"海底两万里"},
+                    {id:'2',name:"海底两万里2"},
+                    {id:'3',name:"海底两万里4"},
+                    {id:'4',name:"海底两万里3"}
+                ]
+
+            }
+        },
+        methods:{
+            btnclick(item){
+                this.$emit('itemclick',item)
+            }
+        }
+
+
+    }
+
+
+    // const 定义常量 let定义变量
+    const apps=new Vue({
+        el:'#app', //挂载要管理的元素
+        data:{ //数据
+            message:['aaa','ddd'],
+
+        },
+        components: {
+            cpn
+        },methods: {
+            cpnclick(index){
+                console.log(index.name)
+            }
+
+        }
+
+
+    })
+
+</script>
+</body>
+</html>

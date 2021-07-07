@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script src="../../js/vue.js"></script>
+
+<div id="app">
+  <h2>当前数值:{{ counter}}</h2>
+  <button v-on:click="add">+</button>
+  <button v-on:click="sub">-</button>
+  <p v-once></p>
+<!--  <button v-on:click="counter++">+</button>-->
+<!--  <button v-on:click="counter&#45;&#45;">-</button>-->
+  </div>
+<script>
+    // const 定义常量 let定义变量
+  const apps=new Vue({
+      el:'#app', //挂载要管理的元素
+      data:{ //数据
+        counter:0,
+      },
+      methods:{//用于定义的函数，可以通过 return 来返回函数值
+
+          created:function(){
+
+          },
+          add:function () {
+              this.counter++//想要引用app内部的变量 使用this关键字
+              console.log(" counter++")
+          },
+
+          sub:function () {
+              this.counter--
+              console.log(" counter--")
+          }
+
+      }
+
+
+
+  })
+
+</script>
+
+
+</body>
+</html>

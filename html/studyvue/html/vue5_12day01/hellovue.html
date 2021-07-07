@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+
+
+</head>
+<body>
+<script src="../../js/vue.js"></script>
+<!--<div id="apps">{{message}}</div>-->
+<div id="apps">
+  <ui>
+    <li v-for="dog in dogs":key="dog">{{dog}}</li>
+  </ui>
+
+  <button @click="getbtn"></button>
+</div>
+<script>
+    // const 定义常量 let定义变量
+  const app=new Vue({
+      el:'#apps', //挂载要管理的元素
+      data:{ //数据
+          message:"hello vue",
+          dogs:['哈士奇',  '摩卡', '柴犬'],
+          
+
+
+      },methods:{
+
+        getbtn(){
+          this.dogs.pop()
+        }
+      }
+
+
+  })
+
+</script>
+
+
+</body>
+</html>

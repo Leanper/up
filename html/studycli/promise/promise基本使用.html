@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>$Title$</title>
+</head>
+<body>
+
+<script>
+
+    // 创建异步请求
+    new Promise((resolve,reject)=>{
+        setTimeout(()=>{
+            resolve("resolve第一次请求")
+            console.log('第一次请求');
+
+
+        },2000)
+
+    }).then((data)=>{
+        console.log(data);
+        console.log('hello2');
+        console.log('hello3');
+        console.log('hello4');
+
+        return new Promise((resolve,reject)=>{
+            setTimeout(()=>{
+                console.log('第二次请求');
+
+                reject("失败了")
+
+            },2000)
+        }).then((data)=>{
+
+
+        }).catch((err)=>{
+            console.log(err);
+
+        })
+
+    }).catch((data)=>{
+        console.log(data);
+
+    })
+
+
+    new Promise((resolve,reject)=>{
+        // resolve('成功2')
+        reject('失败了2')
+
+    }).then(data=>{
+        console.log(data);
+    },err=>{
+        console.log(err);
+    })
+
+
+</script>
+</body>
+</html>

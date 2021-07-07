@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+<div style="background:#00ff00">
+
+    <form action="/loadsuccess/" method="post" >
+    {% csrf_token %}
+    添加用户名
+    <input type="text" name="username">
+    <input  type="password" name="sex">
+    <input type="submit" value="提交"></input>
+    </form>
+</div>
+
+
+<div>
+<div style="background:#ffff00">
+    <ul>
+        {% for list in list2  %}
+        <li>{{ list.name }}</li>
+        {% endfor %}
+    </ul>
+</div>
+</div>
+
+<div style="background:#00ffff">
+    <h4>添加用户</h4>
+    <form method="post" action="/selectAuthor/">
+        {% csrf_token %}
+        用户名：<input type="text" name="ausername"><br>
+       性别： <input type="text" name="asex"><br>
+       年龄 :<input type="text" name="aage"><br>
+       id: <input type="text" name="aid"><br>
+        <input type="submit" value="提交" >
+
+
+    </form>
+
+
+</div>
+
+</body>
+</html>

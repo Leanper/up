@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+
+<script>
+
+    Promise.all([
+      new Promise((resolve,reject)=>{
+          resolve('aaa')
+      }),
+
+      new Promise((resolve,reject)=>{
+          resolve('bbb')
+      }),
+  ]).then((results)=>{
+      console.log(results[0]);
+      console.log(results[1]);
+  })
+
+
+</script>
+
+</body>
+</html>

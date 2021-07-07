@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+
+<script src="../../js/vue.js"></script>
+
+<template id="count">
+  <div>
+    <h2>当前选择数字：{{counter}}</h2>
+    <button @click="add(counter)">+</button>
+    <button @click="sub(counter)">-</button>
+  </div>
+
+</template>
+
+<div id="app">
+<cpn  v-on:addcount="addclick" v-on:subcount="subclick"></cpn>
+<cpn  v-on:addcount="addclick" v-on:subcount="subclick"></cpn>
+<cpn  v-on:addcount="addclick" v-on:subcount="subclick"></cpn>
+  </div>
+<script>
+
+    const cpn = {
+        template:'#count',
+        data(){
+
+            return {
+                counter:0
+            }
+    },
+        methods:{
+            add(counter){
+                this.counter++
+                this.$emit('addcount',this.counter)
+            },
+            sub(counter){
+                this.counter--
+                this.$emit('subcount',this.counter)
+
+            },
+
+
+        }
+    }
+    // const 定义常量 let定义变量
+  const apps=new Vue({
+      el:'#app', //挂载要管理的元素
+      data:{ //数据
+
+
+
+      },
+      components:{
+          cpn
+      },
+      methods: {
+          addclick(index){
+              console.log(index)
+          },
+          subclick(index){
+              console.log(index)
+          }
+      }
+
+
+  })
+
+</script>
+
+</body>
+</html>

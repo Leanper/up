@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+
+<script src="../../js/vue.js"></script>
+
+<div id="app">
+
+  <h3>{{message}}</h3>
+  <button v-on:click="add">+</button>
+  <button v-on:click="sub">-</button>
+
+  </div>
+<script>
+    // const 定义常量 let定义变量
+  const apps=new Vue({
+      el:'#app', //挂载要管理的元素
+      data:{ //数据
+        message:0,
+          cos
+
+
+
+      },
+      methods:{
+         add(){
+             this.message++
+         },
+          sub(){
+             this.message--
+          }
+
+      }
+
+
+  })
+
+</script>
+</body>
+</html>

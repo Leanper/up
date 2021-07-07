@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<!--TODO https://www.bilibili.com/video/BV15741177Eh?p=72&spm_id_from=pageDriver-->
+<script src="../../js/vue.js"></script>
+
+<template id="tem">
+<div>
+  <slot :data="planguage">
+    <ui>
+      <li v-for="l in planguage">{{l}}</li>
+    </ui>
+  </slot>
+
+</div>
+
+</template>
+
+<div id="app">
+  <tem></tem>
+
+  <tem>
+  <template slot-scope="slot">
+    <ol>
+      <li v-for="item in slot.data">{{item}}</li>
+    </ol>
+
+  </template>
+
+  </tem>
+
+  </div>
+<script>
+    // const 定义常量 let定义变量
+  const apps=new Vue({
+      el:'#app', //挂载要管理的元素
+      data:{ //数据
+
+
+
+      },
+      components:{
+          tem:{
+              template:'#tem',
+              data (){
+                  return {
+                      planguage:['python','go','kotlin','java']
+                  }
+
+              }
+          },
+
+
+      }
+
+
+  })
+
+</script>
+
+</body>
+</html>

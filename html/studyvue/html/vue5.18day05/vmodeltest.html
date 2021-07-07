@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+
+<script src="../../js/vue.js"></script>
+
+<div id="app">
+
+  <label>
+    <input type="radio" value="男" v-model="sex">男
+  </label>
+  <label >
+    <input type="radio" value="女" v-model="sex">女
+  </label>
+  <h2>性别：{{sex}}</h2>
+  <input v-model.lazy="message" type="text">{{message}}
+
+
+  <label>
+    <input type="checkbox" v-model="isagree">同意
+  </label>
+  <button v-bind:disabled="!isagree">下一步</button>
+
+  <input type="checkbox" value="篮球" v-model="hobbies">篮球
+  <input type="checkbox" value="足球" v-model="hobbies">足球
+  <input type="checkbox" value="乒乓球" v-model="hobbies">乒乓球
+  <input type="checkbox" value="橄榄球" v-model="hobbies">橄榄球
+
+
+<h2>爱好{{hobbies}}</h2>
+  
+  
+  <select v-model="fiute">
+    <option value="苹果">苹果</option>
+    <option value="香蕉">香蕉</option>
+    <option value="葡萄">葡萄</option>
+    <option value="苹果">苹果</option>
+  </select>
+  <h2>爱好{{fiute}}</h2>
+
+  <select v-model="fiutes" multiple>
+    <option value="苹果">苹果</option>
+    <option value="香蕉">香蕉</option>
+    <option value="葡萄">葡萄</option>
+    <option value="苹果">苹果</option>
+  </select>
+
+  <h2>爱好{{fiutes}}</h2>
+
+  <label v-for="item in orghobby">
+    <input value="item" type="checkbox" v-bind:value="item" v-model="myhobby">{{item}}
+  </label>
+<h2>{{myhobby}}</h2>
+</div>
+<script>
+    // const 定义常量 let定义变量
+  const apps=new Vue({
+      el:'#app', //挂载要管理的元素
+      data:{ //数据
+           message:'你好呀',
+          sex: "男",
+          isagree:false,
+          hobbies:[],
+          fiute:"橘子",
+          fiutes:[],
+          orghobby:['a','b','c','d','e','g'],
+          myhobby:[]
+
+      },methods:{
+
+
+      }
+
+
+  })
+
+</script>
+</body>
+</html>

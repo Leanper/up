@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script src="../../js/vue.js"></script>
+
+<div id="app" >
+  <img :src="imgurl" alt="">
+  <a v-bind:href="url">adad</a>
+
+  </div>
+
+<h1 id="appa">现实点啥</h1>
+<script>
+    // const 定义常量 let定义变量
+  const apps=new Vue({
+      el:'#app', //挂载要管理的元素
+      data:{ //数据
+          imgurl:'https://img2.baidu.com/it/u=3228549874,2173006364&fm=26&fmt=auto&gp=0.jpg',
+          url:'https://www.baidu.com',
+      }
+
+
+  })
+    // const 定义常量 let定义变量
+    const appa=new Vue({
+        el:'#appa', //挂载要管理的元素
+        data:{ //数据
+            active:true,
+            isLine:true
+
+
+        }
+
+
+    })
+
+</script>
+
+
+</body>
+</html>

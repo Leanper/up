@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script src="../../js/vue.js"></script>
+
+<div id="app">
+
+  <div v-if="books.length>0">
+
+    <table border="none">
+      <th>书名</th>
+
+      <th>价格</th>
+      <th>日期</th>
+      <th>数量</th>
+      <th>删除</th>
+      <tr v-for="(book,index) in books">
+        <td >{{book.name}}</td>
+        <td >{{book.price}}</td>
+        <td >{{book.date}}</td>
+
+        <td >
+          <button @click="sub(index)" v-bind:disabled="book.num<=1">-</button>
+          {{book.num}}
+          <button @click="add(index)">+</button>
+        </td>
+
+        <td ><button @click="removebook(index)">移除</button></td>
+      </tr>
+    </table>
+    <h2>总价格{{totalprice}}</h2>
+
+  </div>
+
+  <div v-else>
+    <h2>购物额车为空</h2>
+  </div>
+
+</div>
+<script>
+    // const 定义常量 let定义变量
+  const apps=new Vue({
+      el:'#app', //挂载要管理的元素
+      data:{ //数据
+
+         books:[
+             {name:"数据导论",price:20,date:'2018-9-8',num:1},
+             {name:"数据结构",price:20,date:'2018-9-8',num:1},
+             {name:"啊啊",price:20,date:'2018-9-8',num:1},
+             {name:"出差",price:30,date:'2018-9-8',num:2},
+             ],
+
+
+      },
+      methods:{
+        add(index){
+            console.log(index)
+
+           this.books[index].num++
+
+        },
+
+        sub(index){
+            console.log(index)
+            if(this.books[index].num==0){
+
+            }
+             this.books[index].num--
+          },
+          removebook(index){
+            this.books.splice(index,1)
+          }
+
+      },
+      computed:{
+
+          totalprice(){
+              let totalprice=0;
+
+              for (let i=0;i<this.books.length;i++){
+                  totalprice+= this.books[i].price * this.books[i].num
+              }
+              return totalprice
+
+
+          }
+      }
+
+
+  })
+
+</script>
+</body>
+</html>

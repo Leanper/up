@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+
+<script src="../../js/vue.js"></script>
+
+<div id="app">
+
+  <h3 v-if="isShow">我先不现实</h3>
+  <h3 v-else>那我就显示</h3>
+
+  <button v-else-if="">{{type}}</button>
+
+  <h2 v-if="socre>90">优秀</h2>
+  <h2 v-else-if="socre>60">及格</h2>
+  <h2 v-else>不及格</h2>
+
+  </div>
+<script>
+    // const 定义常量 let定义变量
+  const apps=new Vue({
+      el:'#app', //挂载要管理的元素
+      data:{ //数据
+      isShow:false,
+      socre:0
+
+      }
+
+
+  })
+
+</script>
+</body>
+</html>

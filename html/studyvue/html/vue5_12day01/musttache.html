@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script src="../../js/vue.js"></script>
+
+<div id="app">
+ <p v-html="url" v-cloak>{{url}}</p>
+<p v-text="text"></p> #使用较少 不灵活
+  <p  v-cloak>{{text}}</p> #原封不动展示
+  </div>
+<script>
+    
+    setTimeout(function () {
+        const apps=new Vue({
+            el:'#app', //挂载要管理的元素
+            data:{ //数据
+
+                url:'<a href="www.baidu.com"> 百度一下</a>',
+                text:"哈哈哈哈哈",
+
+            }
+
+
+        })
+    },1000)
+    // const 定义常量 let定义变量
+
+
+</script>
+
+
+</body>
+</html>

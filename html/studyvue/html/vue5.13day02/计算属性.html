@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+
+<script src="../../js/vue.js"></script>
+
+<div id="app">
+  <h2>{{fullname}}</h2>
+  <h2>{{totalprice}}</h2>
+  </div>
+<script>
+    // const 定义常量 let定义变量
+  const apps=new Vue({
+      el:'#app', //挂载要管理的元素
+      data:{ //数据
+          firstname:'Lebron',
+          lastname:'James',
+          books:[
+              {name:'python',price:50},
+              {name:'python',price:50},
+              {name:'python',price:50},
+              {name:'python',price:50},
+          ]
+
+      },computed:{
+          fullname:function () {
+              return this.firstname+ this.lastname
+          },
+          totalprice:function () {
+              let result=0;
+              for (let i=0;i<this.books.length;i++){
+                  result+=this.books[i].price
+              }
+              return result
+          }
+
+      }
+
+
+  })
+
+</script>
+
+</body>
+</html>

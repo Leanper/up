@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+
+<template id="cpn">
+  <div>
+    <p>{{cfirut}}</p>
+    <p>{{cmessage}}</p>
+  </div>
+</template>
+
+<script src="../../js/vue.js"></script>
+
+<div id="app">
+<cpn v-bind:cfirut:="firut" v-bind:cmessage="message"></cpn>
+  </div>
+
+
+
+
+<script>
+    const cpn = {
+        template : '#cpn',
+        // props:['cfirut','cmessage']
+        props:{
+            cmessage:{
+                default:"默认值",
+                required:true
+            }
+        }
+    }
+
+
+    // const 定义常量 let定义变量
+  const apps=new Vue({
+      el:'#app', //挂载要管理的元素
+      data:{ //数据
+        message:['aaa','ddd'],
+        firut:'sdsds'
+      },
+      components: {
+          cpn
+      }
+
+
+  })
+
+</script>
+
+</body>
+</html>

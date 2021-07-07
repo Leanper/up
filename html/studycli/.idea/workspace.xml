@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dcfc0a61-4596-4145-a01f-c3c30d0ab787" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/studycli.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/promise/promiseall方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/promise/promise基本使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/promise/promise链式应用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyaxios/src/network/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyclidemo/src/components/MyHello.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyroute/src/components/About.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyroute/src/components/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyroute/src/components/HomeMessage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyroute/src/components/HomeNews.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyroute/src/components/User.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyroute/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyvuex/src/components/HelloVuex.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studyvuex/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tabbardemo/src/assets/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tabbardemo/src/assets/img/tabbar/item-home_selected.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tabbardemo/src/assets/img/tabbar/item-home_unselected.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tabbardemo/src/assets/img/tabbar/item-me_selected.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tabbardemo/src/assets/img/tabbar/item-me_unselected.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tabbardemo/src/components/tabbar/Tabbar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tabbardemo/src/components/tabbar/TabbarItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tabbardemo/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tabbardemo/src/views/cat/Cat.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tabbardemo/src/views/home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tabbardemo/src/views/profile/Profile.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tabbardemo/src/views/shop/Shop.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuexdemo/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vuexdemo/src/store/mutation-type.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/箭头函数/箭头函数基本使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studyvue/html/webpack/webpack起步/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studyvue/html/webpack/webpack起步/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studywebpack/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studywebpack/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studywebpack/.idea/studywebpack.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studywebpack/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studywebpack/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studywebpack/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studywebpack/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studywebpack/src/mathutils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studywebpack/src/vue/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../studywebpack/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webpackdemos/.idea/webpackdemos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webpackdemos/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webpackdemos/src/Leanper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webpackdemos/src/css/normal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webpackdemos/src/dog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webpackdemos/src/img/tim1g.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webpackdemos/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webpackdemos/src/mathutils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webpackdemos/src/person.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webpackdemos/src/vue/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webpackdemos/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../python/django_hello/HelloDjango/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../python/django_hello/HelloDjango/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studyvue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../studyvue/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vue.md" beforeDir="false" afterPath="$PROJECT_DIR$/../vue.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python/django_hello/HelloDjango/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../python/django_hello/HelloDjango/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python/django_hello/HelloDjango/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../python/django_hello/HelloDjango/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python/django_hello/HelloDjango/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../../python/django_hello/HelloDjango/db.sqlite3" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1tHTD9ceqJ8XOjPg0px0KRLyse7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tabbardemo/src/views" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\up\html\studycli\tabbardemo\src\views" />
+      <recent name="H:\up\html\studycli\tabbardemo\src\assets\img\tabbar" />
+      <recent name="H:\up\html\studycli" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\up\html\studycli\vuexdemo\src\store" />
+      <recent name="H:\up\html\studycli" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/studyclidemo/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dcfc0a61-4596-4145-a01f-c3c30d0ab787" name="Default Changelist" comment="" />
+      <created>1622424893400</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622424893400</updated>
+      <workItem from="1622424894634" duration="4820000" />
+      <workItem from="1622507691345" duration="2235000" />
+      <workItem from="1622510039431" duration="17776000" />
+      <workItem from="1622594285911" duration="23054000" />
+      <workItem from="1622680094672" duration="7222000" />
+      <workItem from="1622689358313" duration="13532000" />
+      <workItem from="1622767229900" duration="21460000" />
+      <workItem from="1623026981795" duration="7930000" />
+      <workItem from="1623112236484" duration="615000" />
+      <workItem from="1623113085225" duration="166000" />
+      <workItem from="1623200768449" duration="2909000" />
+      <workItem from="1623220168464" duration="728000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1622540200771">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622540200771" />
+    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1622540200770">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1622540200770" />
+    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1622540200770">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1622540200770" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1622540200771">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1622540200771" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1622534051839">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1622534051839" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1622794247973">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1622794247973" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/tabbardemo/src/router/index.js</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/promise/promise基本使用.html</url>
+          <line>12</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
